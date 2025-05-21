@@ -155,9 +155,9 @@ if __name__ == "__main__":
     process(
         {
             "speech":      "speech.wav",
-            "mr":          "./mr/bam_yang_gang/mr.wav",
-            "vocal_data":  "./vocal_data/bam_yang_gang/vocal_data.pkl",
-            "vocal_wav":   "./vocals/bam_yang_gang/vocals.wav",
+            "mr":          "./mr/airplane/mr.wav",
+            "vocal_data":  "./vocal_data/airplane/vocal_data.pkl",
+            "vocal_wav":   "./vocals/airplane/vocals.wav",
         }
     )
     print(f"Done in {time.time() - t0:.2f}s")
